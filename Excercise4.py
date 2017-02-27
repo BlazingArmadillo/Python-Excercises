@@ -46,7 +46,7 @@ import numpy #Imports the "numpy" library to use its standard deviation function
 #The program first sorts the number list and then finds and prints the standard deviation of its numbers without taking into account the 2 first and the 2 last ones.
 #The fact that it requires 4 numbers to not use, creates the requirement for the program to recieve at least 5 numbers from the user, 
 #so it can remove the 4 of them and still have numbers to execute the standard deviation function with.
-print numpy.std(sorted(nums)[2:-2])
+print 'The standard deviation of the numbers you gave is:', numpy.std(sorted(nums)[2:-2])
 x=''
 print 'Type "Exit" to quit the program.' #Asks the user to give the word "Exit" to quit the program. By, going into this loop, the program won't instantly close
 #after finding the standard deviation and the user will be able to see the result.
